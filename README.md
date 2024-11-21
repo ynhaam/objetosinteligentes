@@ -19,6 +19,13 @@ Além da notificação local, os dados são transmitidos para um aplicativo remo
 
 👉 Testes: Verifique a funcionalidade do sensor e a correspondência dos LEDs com os níveis do estoque. Confirme a comunicação MQTT com o aplicativo.
 
+**Descrição do Hardware:**
+- ESP32: Microcontrolador responsável pelo processamento e comunicação.
+- Sensor Ultrassônico HC-SR04: Mede a distância para determinar o nível do estoque.
+- LED Semáforo: Três LEDs (vermelho, amarelo, verde) que indicam o estado do estoque.
+- Protoboard e Jumpers: Para montagem.
+- Resistores: Proteção dos LEDs.
+
 **Observações Importantes:**
 
 Não esqueça de ler o artigo, principalmente a bibliografia, pois lá consta todas as fontes que me ajudou a construir esse projeto, na qual tenho muito carinho!
