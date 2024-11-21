@@ -11,8 +11,11 @@ O sistema mede o nível de estoque utilizando um **sensor ultrassônico**, proce
 Além da notificação local, os dados são transmitidos para um aplicativo remoto via MQTT, permitindo acompanhamento em tempo real e ações proativas.  
 
 **Reproduzindo o Projeto**
+
 👉 Montagem: Conecte o sensor ao ESP32 conforme o diagrama de montagem no artigo fornecido no repositório. Ligue o LED semáforo a saídas digitais.
+
 👉 Código: Faça o upload do código disponível neste repositório para a ESP32 via IDE Arduino, inclusive o Firmata. Personalize os valores de limite do sensor e as configurações MQTT.
+
 👉 Testes: Verifique a funcionalidade do sensor e a correspondência dos LEDs com os níveis do estoque. Confirme a comunicação MQTT com o aplicativo.
 
 **Observações Importantes**
