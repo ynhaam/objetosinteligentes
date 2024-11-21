@@ -25,7 +25,9 @@ Além da notificação local, os dados são transmitidos para um aplicativo remo
 - LED Semáforo: Três LEDs (vermelho, amarelo, verde) que indicam o estado do estoque.
 - Protoboard e Jumpers: Para montagem.
 - Resistores: Proteção dos LEDs.
-
+- Broker MQTT.
+- Node-RED.
+  
 **Observações Importantes:**
 
 Não esqueça de ler o artigo, principalmente a bibliografia, pois lá consta todas as fontes que me ajudou a construir esse projeto, na qual tenho muito carinho!
