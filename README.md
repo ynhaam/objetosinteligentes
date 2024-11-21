@@ -5,7 +5,7 @@ Este projeto visa implementar uma solução prática e eficiente para monitorar 
 O sistema mede o nível de estoque utilizando um **sensor ultrassônico**, processa as informações com o **ESP32**, e notifica visualmente por meio de LEDs:  
 
 🟢 Verde: Estoque em nível ideal.  
-🟡Amarelo: Estoque em metade da capacidade, sinalizando atenção.  
+🟡 Amarelo: Estoque em metade da capacidade, sinalizando atenção.  
 🔴 Vermelho: Estoque baixo, indicando necessidade de reposição imediata.  
 
 Além da notificação local, os dados são transmitidos para um aplicativo remoto via MQTT, permitindo acompanhamento em tempo real e ações proativas.  
